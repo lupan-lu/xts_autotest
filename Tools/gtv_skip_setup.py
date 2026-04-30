@@ -27,8 +27,8 @@ from typing import Tuple
 
 # ================= 配置区域 =================
 # 默认 WiFi 配置（与 gtvFullSetup.py 保持一致）
-DEFAULT_WIFI_SSID = "XR-APD-XTS"
-DEFAULT_WIFI_PASS = "1234567890"
+DEFAULT_WIFI_SSID = "xxxxxxx"
+DEFAULT_WIFI_PASS = "xxxxxxx"
 
 # 设备掉线检测配置
 DEVICE_OFFLINE_TIMEOUT = 300  # 设备掉线最大等待时间（秒），5分钟
