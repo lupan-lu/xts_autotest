@@ -1,0 +1,50 @@
+tools:
+  cts:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/tools/cts-tradefed
+    run_command: "run cts"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Cts
+
+  cts-on-gsi:
+    # 与 CTS 共用 tradefed，使用 run cts-on-gsi 命令
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/tools/cts-tradefed
+    run_command: "run cts-on-gsi"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/CTS/android-cts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/CtsOnGsi
+
+  vts:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/Android16/VTS/android-vts/tools/vts-tradefed
+    run_command: "run vts"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/VTS/android-vts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/VTS/android-vts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Vts
+
+  gts:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/GTS/android-gts/tools/gts-tradefed
+    run_command: "run gts"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/GTS/android-gts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/GTS/android-gts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Gts
+
+  tvts-full:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/tools/tvts-tradefed
+    run_command: "run tvts-full-cert"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Tvts
+
+  tvts-maint:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/tools/tvts-tradefed
+    run_command: "run tvts-maint-cert"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/TVTS/2.17R1/android-tvts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Tvts
+
+  sts:
+    tradefed: /Volumes/LUPAN1/Workspace/XTS/Android16/STS/STSR46/android-sts/tools/sts-tradefed
+    run_command: "run sts"
+    results_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/STS/STSR46/android-sts/results
+    logs_dir: /Volumes/LUPAN1/Workspace/XTS/Android16/STS/STSR46/android-sts/logs
+    output_dir: /Volumes/LUPAN1/Workspace/XTS/Reports/Sts
